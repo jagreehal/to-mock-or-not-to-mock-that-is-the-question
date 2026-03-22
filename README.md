@@ -488,8 +488,8 @@ The production code wires the real dependency at the app boundary: the entry poi
 ## Run it yourself
 
 ```bash
-git clone <repo-url>
-cd to-mock-or-not
+git clone https://github.com/jagreehal/to-mock-or-not-to-mock-that-is-the-question.git
+cd to-mock-or-not-to-mock-that-is-the-question
 pnpm install
 pnpm test
 ```

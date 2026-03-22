@@ -1,0 +1,26 @@
+{
+  "name": "to-mock-or-not-to-mock-that-is-the-question",
+  "version": "1.0.0",
+  "description": "To mock or not to mock, that is the question — concrete Vitest examples showing when vi.mock is a smell and when DI saves the day",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
